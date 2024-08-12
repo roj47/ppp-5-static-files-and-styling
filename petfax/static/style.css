@@ -1,0 +1,89 @@
+body {
+    background: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+    width: 55%;
+    margin: 1em auto;
+    padding: 1em 2em 2em 2em;
+    border-radius: 2em;
+    background: azure;
+    box-shadow: 2px 2px aqua
+}
+h1 {
+    margin: 1em;
+    color: pink;
+    font-family: 'Courier New', Courier, monospace, impact;
+    font-size: 3em;
+    text-align: center;
+}
+h2 {
+    color: lightpink;
+    margin: 0.5em 0.5em;
+}
+a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: orange;
+}
+.anouncement {
+    background: greenyellow;
+    padding: 0.5em;
+    border-radius: .5em;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/* PETS */ 
+.pets-container {
+    width: 100%;
+    display: flexbox;
+    flex-wrap: wrap-reverse;
+    margin: 2em 0;
+}
+.pets-container img {
+    width: 97%;
+    border-radius: .1em;
+    display: inline;
+    margin-bottom: 0.5em;
+}
+.pet {
+    width: 45%;
+    margin: 0.5em 0.5em;
+}
+
+/* FACTS */
+.facts-container {
+    width: 97%;
+    margin-bottom: 1em;
+}
+input, textarea {
+    width: 97%;
+    border: 1px solid lightcoral;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid wheat;
+}
+input[type="submit"] {
+    border: none;
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    padding: 0.5em;
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: aquamarine;
+}
